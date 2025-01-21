@@ -1,0 +1,1 @@
+This repository contains a demonstration of a data race in Rust. The code in `bug.rs` creates multiple mutable references to the same variable, which is undefined behavior. The solution in `bugSolution.rs` demonstrates how to avoid this problem using techniques like interior mutability or ownership transfer.
